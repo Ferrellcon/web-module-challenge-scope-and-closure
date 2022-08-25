@@ -29,9 +29,14 @@ console.log('example task:', processFirstItem(['foo','bar'],function(str){return
   
   Study the code for counter1 and counter2, then answer the questions below.
   
-  1. What is the difference between counter1 and counter2?
+  1. What is the difference between counter1 and counter2? 
+
+  let count is outside of the function in counter2 code
   
   2. Which of the two uses a closure? How can you tell?
+
+  counter1 code uses a closure by using const counter1.
+  It is outside the function using a const variable equaling our function.
   
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
